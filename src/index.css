@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* DiveToTech Design System - Updated */
-/* All colors MUST be HSL format for proper theme support */
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -121,7 +118,7 @@
     pointer-events: none;
     border: 1px solid red;
     /* Debug: Visible border to confirm positioning */
-  } */
+  /* } */
     .about-bg {
       position: absolute;
       inset: 0;
@@ -223,3 +220,4 @@
       opacity: 0;
     }
   }
+}
