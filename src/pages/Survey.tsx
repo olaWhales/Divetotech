@@ -58,7 +58,25 @@ const Survey = () => {
               <label className="block mb-2 font-medium">
                 Do you have any prior experience in technology?
               </label>
+              {/* <select
+                value={surveyData.experience}
+                onChange={(e) =>
+                  setSurveyData({ ...surveyData, experience: e.target.value })
+                }
+                className="w-full p-3 border border-gray-300 rounded-xl mb-4"
+              >
+                <option value="">Select</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select> */}
+              <label
+                htmlFor="experience"
+                className="block mb-2 text-sm font-medium text-gray-700"
+              >
+                Experience
+              </label>
               <select
+                id="experience"
                 value={surveyData.experience}
                 onChange={(e) =>
                   setSurveyData({ ...surveyData, experience: e.target.value })
@@ -99,7 +117,14 @@ const Survey = () => {
               <label className="block mb-2 font-medium">
                 What is your current skill level in tech?
               </label>
+              <label
+                htmlFor="skillLevel"
+                className="block mb-2 text-sm font-medium text-gray-700"
+              >
+                Skill Level
+              </label>
               <select
+                id="skillLevel"
                 value={surveyData.skillLevel}
                 onChange={(e) =>
                   setSurveyData({ ...surveyData, skillLevel: e.target.value })
