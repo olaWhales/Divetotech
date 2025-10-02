@@ -7,7 +7,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Register from "./pages/Register";
 import ContactPage from "./pages/ContactPage";
-import pages from "./pages/Programs"
+// import pages from "./pages/Programs"
 import Programs from "./pages/Programs";
 import Survey from "./pages/Survey";
 
